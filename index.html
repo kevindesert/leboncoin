@@ -26,7 +26,7 @@
     <!-- HEADER -->
     <header>
         <div>
-            <aside class="mobile">
+            <aside class="mobile nodesktop">
                 <a href="#">MENU</a>
             </aside>
 
@@ -36,7 +36,7 @@
                 </figure>
             </aside>
 
-            <nav>
+            <nav class="nomobile yesdesktop">
                 <ul>
                     <li>
                         <a href="index.html">ACCUEIL</a>
@@ -59,8 +59,8 @@
                 </ul>
             </nav>
 
-            <aside class="left">
-                <button type="button" name="button"><i class="fa fa-user-o" aria-hidden="true"></i> Se connecter</button>
+            <aside class="left nomobile yesdesktop">
+                <button type="button" name="button"><i class="fa fa-user" aria-hidden="true"> </i> Se connecter</button>
 
             </aside>
         </div>
@@ -71,9 +71,10 @@
     <!-- CONTAINER & ASIDE -->
     <div class="container">
         <section>
-            <h2>Trouvez la bonne affaire parmi 27 427 616 petites annonces sur leboncoin.</h2>
-            <a href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Recherche autour de moi</a>
-            <a href="#"><i class="fa fa-bullseye" aria-hidden="true"></i> Déposer une annonce</a>
+            <h2>Trouvez la bonne affaire parmi <span>27 427 616 petites annonces</span> sur leboncoin.</h2>
+            <a class="un" href="#"><i class="fa fa-bullseye" aria-hidden="true"></i> Déposer une annonce</a>
+            <a class="deux" href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Recherche autour de moi</a>
+
         </section>
 
         <!-- MAPS -->
@@ -162,7 +163,7 @@
         <!-- END OF THE MAPS -->
 
 <!-- ASIDE -->
-        <aside>
+        <aside class="nomobile">
             <ul>
                 <li>
                     <a href="#">Alsace</a>

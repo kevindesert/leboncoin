@@ -1,0 +1,201 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>leboncoin, site de petites annonces gratuites</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- Add your site or application content here -->
+
+    <!-- HEADER -->
+    <header>
+        <div>
+            <aside class="mobile">
+                <a href="#">MENU</a>
+            </aside>
+
+            <aside class="right">
+                <figure>
+                    <a href="#"><img src="https://static.leboncoin.fr/img/logo.svg" alt="logo leboncoin"></a>
+                </figure>
+            </aside>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">ACCUEIL</a>
+                    </li>
+                    <li>
+                        <a href="annonce.html">DÉPOSER UNE ANNONCE</a>
+                    </li>
+                    <li>
+                        <a href="#">OFFRES</a>
+                    </li>
+                    <li>
+                        <a href="#">DEMANDES</a>
+                    </li>
+                    <li>
+                        <a href="#">MES ANNONCES</a>
+                    </li>
+                    <li>
+                        <a href="#">BOUTIQUES</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <aside class="left">
+                <button type="button" name="button"><i class="fa fa-user-o" aria-hidden="true"></i> Se connecter</button>
+
+            </aside>
+        </div>
+    </header>
+
+    <!-- END OF THE HEADER -->
+    <div class="uneannonce">
+        <h1>Déposer une annonce</h1>
+
+
+
+        <section class="anntop">
+            <h2>Votre annonce</h2>
+
+            <label for="Catégorie">Catégorie *</label>
+            <select><option value="catégorie">Choisissez une catégorie</option></select>
+
+            <label for="Particulier">Vous êtes un *</label>
+            <input type="radio" value="profession" name="job"/> Particulier
+            <input type="radio" value="profession" name="job"/> Professionnel
+
+            <label for="Demande">Type d'annonce *</label>
+            <input type="radio" value="demande" name="offres" /> Offres
+            <input type="radio" value="demande" name="offres" /> Demandes
+
+
+            <label for="Titre de l'annonce">Titre de l'annonce *</label>
+            <input type="text" name="" value="">
+
+            <label for="Texte de l'annonce">Texte de l'annonce *</label>
+            <textarea name="Texte de l'annonce" rows="8" cols="80"></textarea>
+
+
+            <label for="Prix">Prix</label>
+                <input type="text" name="prix" placeholder="€">
+
+
+            <p>Photos : Une annonce avec photo est 7 fois plus consultée qu'une annonce sans photo</p>
+            <figure>
+
+                <a href="#"><img src="img/photoprincipale.png" alt="photo principale"></a>
+            </figure>
+
+            <figure>
+
+                <a href="#"><img src="img/photo2.png" alt="photo 2"></a>
+            </figure>
+
+            <figure>
+
+                <a href="#"><img src="img/photo3.png" alt="photo 3"></a>
+            </figure>
+
+            <figure>
+
+                <a href="#"><img src="img/photosupp.png" alt="photo supp"></a>
+            </figure>
+
+            <figure>
+                <a href="#"><img src="img/photosuppmobile.png" alt="photo supp mobile"></a>
+            </figure>
+        </section>
+
+        <section class="annmiddle">
+            <h2>Localisation</h2>
+            <label for="Ville">Ville ou code postal *</label>
+            <div class="cible">
+              <i class="fa fa-bullseye" aria-hidden="true"></i>
+              <input type="text" name="" value="">
+            </div>
+
+
+            <label for="Adresse">Adresse</label>
+            <input type="text" name="" value="" placeholder="Voie ou numéro + voie">
+            <button type="button" name="button">Valider mon adresse</button>
+            <p>Complétez votre adresse et les personnes utilisant la recherche autour de soi trouveront plus facilement votre annonce.
+Si vous ne souhaitez pas renseigner votre adresse exacte, indiquez votre rue sans donner le numéro. Cette information ne sera conservée que le temps de la publication de votre annonce.</p>
+            <figure>
+                <img src="img/annoncemap.png" alt="map">
+            </figure>
+        </section>
+
+        <section class="annbottom">
+            <h2>Vos infomations</h2>
+            <label for="Pseudo">Pseudo *</label>
+            <input type="text" name="" value="">
+            <label for="email">Email *</label>
+            <input type="text" name="" value="">
+            <label for="Téléphone">Téléphone *</label>
+            <input type="text" name="" value="">
+            <input type="checkbox" name="masquer" value="">
+            <p>Masquer le numéro de téléphone dans l'annonce.</p>
+            <input type="checkbox" name="" value="">
+            <p>Je ne souhaite pas être sollicité par des sociétés étrangères au site leboncoin.fr</p>
+        </section>
+
+        <a href="#">Valider</a>
+        <p>Champs obligatoires *</p>
+    </div>
+    <footer>
+        <p>leboncoin 2006 - 2017</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l;
+            b[l] || (b[l] =
+                function() {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+            b[l].l = +new Date;
+            e = o.createElement(i);
+            r = o.getElementsByTagName(i)[0];
+            e.src = 'https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-XXXXX-X', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
+
+</html>

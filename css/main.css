@@ -157,7 +157,10 @@ header div {
     width: 140px;
     height: 40px;
 }
+
+
 /*HEADER*/
+
 
 /*CONTAINER & ASIDE*/
 
@@ -204,7 +207,10 @@ header div {
     border: 1px solid #4c94ef;
     color: #4c94ef;
 }
+
+
 /*CONTAINER & ASIDE*/
+
 
 /*MAPS*/
 
@@ -213,6 +219,7 @@ div #France {
     height: 330px;
     margin-left: 0.5em;
 }
+
 
 /*MAPS*/
 
@@ -252,6 +259,7 @@ div p a:hover {
     text-decoration: underline;
 }
 
+
 /*SELECT REGION FOR MOBILE VERSION*/
 
 
@@ -289,7 +297,10 @@ footer {
 .bottom .twitter {
     color: #00b0ed;
 }
+
+
 /*FOOTER*/
+
 
 /*MOBILE VERSION*/
 
@@ -303,61 +314,61 @@ footer {
     .yestablette {
         display: block;
     }
-/*HEADER SAME AS THE MOBILE VERSION NO MODIFICATION*/
-
-/*CONTAINER & ASIDE*/
-.container
-{
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  background-color: green;
-}
-
-
-.container section
-{
-  width: 60%;
-  display: flex;
-  justify-content: flex-start;
-  background-color: blue;
-
-}
-.container section a
-{
-  padding: 2.5%;
-  width: 80%;
-}
-.container section h2
-{
-  margin-left: 1em;
-  margin-bottom: 4em;
-  width: 70%;
-  text-align: left;
-}
-/*CONTAINER & ASIDE*/
-
-/*MAPS*/
-.container div{
-  width: 50%;
-  background-color: red;
-}
-.container section i {
-    display: inline-block;
-    
-}
-div #France {
-    width: 417px;
-    height: 465px;
-    background-color: yellow;
-}
-
-/*MAPS*/
-
-
-
-
-
+    /*HEADER SAME AS THE MOBILE VERSION NO MODIFICATION*/
+    /*CONTAINER & ASIDE*/
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .container section {
+        width: 60%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .container section a {
+        padding: 2.5%;
+        width: 70%;
+    }
+    .container section h2 {
+        margin-left: 1em;
+        margin-bottom: 4em;
+        width: 70%;
+        text-align: left;
+    }
+    /*CONTAINER & ASIDE*/
+    /*MAPS*/
+    .container div {
+        width: 50%;
+    }
+    .container section i {
+        display: inline-block;
+    }
+    div #France {
+        width: 417px;
+        height: 465px;
+        margin-bottom: 1em;
+    }
+    /*MAPS*/
+    /*SELECT REGION FOR MOBILE VERSION*/
+    div select {
+        width: 95%;
+        font-size: 18px;
+    }
+    div p {
+        width: 95%;
+    }
+    /*SELECT REGION FOR MOBILE VERSION*/
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+    .bottom {
+        justify-content: space-between;
+    }
+    .bottom p {
+        width: 17%;
+    }
 }
 
 
@@ -373,7 +384,8 @@ div #France {
     .yesdesktop {
         display: block;
     }
-    a {
+    /*HEADER*/
+    header a {
         text-decoration: none;
         color: white;
         font-size: 13px;
@@ -404,7 +416,7 @@ div #France {
         color: #F56B2A;
     }
     .left button {
-        margin-top: 2em;
+        margin-top: 2.2em;
         margin-left: 2.5em;
         background-color: #F56B2A;
         color: white;
@@ -414,6 +426,50 @@ div #France {
     header nav ul li a:hover {
         text-decoration: underline;
     }
+    /*HEADER*/
+
+    /*CONTAINER & ASIDE*/
+    .all {
+        display: flex;
+        justify-content: space-between;
+    }
+    .all p
+    {
+      display: none;
+    }
+
+
+    .container section {
+        width: 55%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    /*MAPS*/
+    div #France {
+        width: 437px;
+        height: 478px;
+        margin-top: 2em;
+    }
+    /*MAPS*/
+    .region {
+        width: 40%;
+    }
+.region ul
+{
+  list-style-type: none;
+  margin-right: 9em;
+  margin-top: 2em;
+}
+.region ul li
+{
+  text-align: right;
+}
+.region ul li a
+{
+  color:#369;
+  font-size: 15px;
+  font-weight: 500;
+}
 }
 
 

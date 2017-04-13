@@ -36,7 +36,7 @@
                 </figure>
             </aside>
 
-            <nav>
+            <nav class="nomobile">
                 <ul>
                     <li>
                         <a href="index.html">ACCUEIL</a>
@@ -59,7 +59,7 @@
                 </ul>
             </nav>
 
-            <aside class="left">
+            <aside class="left nomobile">
                 <button type="button" name="button"><i class="fa fa-user-o" aria-hidden="true"></i> Se connecter</button>
 
             </aside>
@@ -67,11 +67,14 @@
     </header>
 
     <!-- END OF THE HEADER -->
+
+
     <div class="uneannonce">
         <h1>Déposer une annonce</h1>
+        <hr>
 
 
-
+<!-- ANNONCE TOP-->
         <section class="anntop">
             <h2>Votre annonce</h2>
 
@@ -79,62 +82,48 @@
             <select id="categorie"><option>Choisissez une catégorie</option></select>
 
             <label for="particulier">Vous êtes un *</label>
-            <input type="radio" name="particulier" id="particulier" /> Particulier
-            <input type="radio" name="particulier" /> Professionnel
+            <input type="radio" name="particulier" id="particulier"/> Particulier
+            <input type="radio" name="particulier"/> Professionnel
 
             <label for="demande">Type d'annonce *</label>
-            <input type="radio" id="demande" name="demande" /> Offres
-            <input type="radio" value="demande" name="demande" /> Demandes
+            <input type="radio" id="demande" name="demande"/> Offres
+            <input type="radio" value="demande" name="demande"/> Demandes
 
 
             <label for="titre">Titre de l'annonce *</label>
-            <input type="text" name="titre" id="titre">
+            <input class="cellule"type="text" name="titre" id="titre">
 
             <label for="texte">Texte de l'annonce *</label>
-            <textarea name="texte" rows="8" cols="80" id="texte"></textarea>
+            <textarea name="texte" rows="8" cols="30" id="texte"></textarea>
 
 
             <label for="prix">Prix</label>
-            <input type="text" name="prix" placeholder="€" id="prix">
+            <input class="cellule"type="text" name="prix" placeholder="€" id="prix">
 
 
             <p>Photos : Une annonce avec photo est 7 fois plus consultée qu'une annonce sans photo</p>
             <figure>
 
-                <a href="#"><img src="img/photoprincipale.png" alt="photo principale"></a>
-            </figure>
-
-            <figure>
-
-                <a href="#"><img src="img/photo2.png" alt="photo 2"></a>
-            </figure>
-
-            <figure>
-
-                <a href="#"><img src="img/photo3.png" alt="photo 3"></a>
-            </figure>
-
-            <figure>
-
-                <a href="#"><img src="img/photosupp.png" alt="photo supp"></a>
-            </figure>
+            <a href="#"><img src="img/mobilepic.png" alt="mobile pics"></a>
 
             <figure>
                 <a href="#"><img src="img/photosuppmobile.png" alt="photo supp mobile"></a>
             </figure>
         </section>
+<!-- ANNONCE TOP-->
 
+<!-- ANNONCE MIDDLE -->
         <section class="annmiddle">
             <h2>Localisation</h2>
             <label for="ville">Ville ou code postal *</label>
             <div class="cible">
-                <i class="fa fa-bullseye" aria-hidden="true"></i>
-                <input type="text" name="ville" id="ville">
+
+                <input class="cellule" type="text" name="ville" id="ville">
             </div>
 
 
             <label for="adresse">Adresse</label>
-            <input type="text" name="adresse" id="adresse" placeholder="Voie ou numéro + voie">
+            <input class="cellule" type="text" name="adresse" id="adresse" placeholder="Voie ou numéro + voie">
             <button type="button" name="button">Valider mon adresse</button>
             <p>Complétez votre adresse et les personnes utilisant la recherche autour de soi trouveront plus facilement votre annonce. Si vous ne souhaitez pas renseigner votre adresse exacte, indiquez votre rue sans donner le numéro. Cette information ne
                 sera conservée que le temps de la publication de votre annonce.</p>
@@ -142,28 +131,42 @@
                 <img src="img/annoncemap.png" alt="map">
             </figure>
         </section>
+<!-- ANNONCE MIDDLE -->
 
+<!-- ANNONCE BOTTOM -->
         <section class="annbottom">
             <h2>Vos infomations</h2>
             <label for="pseudo">Pseudo *</label>
-            <input type="text" name="pseudo" id="pseudo">
+            <input class="cellule" type="text" name="pseudo" id="pseudo">
             <label for="email">Email *</label>
-            <input type="email" name="email" id="email">
+            <input class="cellule" type="email" name="email" id="email">
             <label for="téléphone">Téléphone *</label>
-            <input type="tel" name="téléphone" id="téléphone">
-            <input type="checkbox" name="telephone">
+            <input class="cellule" type="tel" name="téléphone" id="téléphone">
+            <input class= "check" type="checkbox" name="telephone">
             <p>Masquer le numéro de téléphone dans l'annonce.</p>
-            <input type="checkbox" name="telephone">
+            <input class= "check" type="checkbox" name="telephone">
             <p>Je ne souhaite pas être sollicité par des sociétés étrangères au site leboncoin.fr</p>
         </section>
+<!-- ANNONCE BOTTOM -->
 
-        <a href="#">Valider</a>
-        <p>Champs obligatoires *</p>
+
+        <p class="champs">Champs obligatoires *</p>
+        <button class="validerbutton" type="button" name="button">Valider</button>
     </div>
-    <footer>
-        <p>leboncoin 2006 - 2017</p>
-    </footer>
 
+        <!-- FOOTER -->
+        <footer>
+            <div class="bottom">
+                <p>leboncoin 2016 - 2017</p>
+                <article class="social">
+                    <h4 class="nomobile"> Retrouvez-nous sur :</h4>
+                    <a class="nomobile" href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                    <a class="nomobile" href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+                </article>
+
+            </div>
+        </footer>
+        <!-- END OF THE FOOTER -->
 
 
 

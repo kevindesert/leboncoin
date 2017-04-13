@@ -427,18 +427,14 @@ footer {
         text-decoration: underline;
     }
     /*HEADER*/
-
     /*CONTAINER & ASIDE*/
     .all {
         display: flex;
         justify-content: space-between;
     }
-    .all p
-    {
-      display: none;
+    .all p {
+        display: none;
     }
-
-
     .container section {
         width: 55%;
         display: flex;
@@ -454,23 +450,65 @@ footer {
     .region {
         width: 40%;
     }
-.region ul
-{
-  list-style-type: none;
-  margin-right: 9em;
-  margin-top: 2em;
+    .region ul {
+        list-style-type: none;
+        margin-right: 9em;
+        margin-top: 2em;
+    }
+    .region ul li {
+        text-align: right;
+    }
+    .region ul li a {
+        color: #369;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .region ul li a:hover {
+        color: orange;
+    }
+    /*CONTAINER & ASIDE*/
+    /*FOOTER*/
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    footer p {
+        text-align: center;
+        color: white;
+    }
+    .white {
+        background-color: #f2f2f2;
+        display: inline-flex;
+        justify-content: space-between;
+        margin-bottom: 1em;
+    }
+    .black {
+        display: inline-flex;
+        justify-content: space-around;
+    }
+    .black ul {
+        margin-right: 2em;
+    }
+    .white a, .white span {
+        color: #369;
+    }
+    .black a, .black span {
+        color: white;
+    }
+    .white ul, .black ul {
+        list-style-type: none;
+    }
+    .white a, .black a {
+        font-size: 14px;
+    }
+    .white a:hover, .black a:hover {
+        text-decoration: underline;
+    }
 }
-.region ul li
-{
-  text-align: right;
-}
-.region ul li a
-{
-  color:#369;
-  font-size: 15px;
-  font-weight: 500;
-}
-}
+
+
+/*FOOTER*/
 
 
 /*DESKTOP VERSION*/

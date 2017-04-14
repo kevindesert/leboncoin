@@ -98,14 +98,17 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+
 /*MOBILE VERSION*/
+
 
 /*COMMON RULES*/
 
 * {
     margin: 0;
     padding: 0;
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .nomobile {
@@ -124,9 +127,9 @@ a {
 /*COMMON RULES*/
 
 
-
-
 /*INDEX.HTML FILES*/
+
+
 /*HEADER*/
 
 header {
@@ -302,155 +305,153 @@ footer {
 /*FOOTER*/
 
 
-
 /*END OF INDEX.HTML FILES ON MOBILE VERSION*/
 
 
 /*ANNONCE.HTML FILES MOBILE VERSION*/
 
+
 /*HEADER SAME VERSION AS THE INDEX.HTML*/
 
+
 /* TITRE PRINCIPALE */
 
-.uneannonce h1
-{
-  color: #989898;
-  font-size: 18px;
-  margin-top: 1em;
-  margin-left: 1em;
+.uneannonce h1 {
+    color: #989898;
+    font-size: 18px;
+    margin-top: 1em;
+    margin-left: 1em;
 }
 
-hr
-{
-  margin-bottom: 2em;
+hr {
+    margin-bottom: 2em;
 }
+
+
 /* TITRE PRINCIPALE */
+
 
 /*ALL ANNONCE */
-.anntop, .annmiddle, .annbottom
-{
-  border: 1px solid grey;
-  width: 90%;
-  margin:auto;
-  margin-bottom: 1em;
 
-}
-.anntop h2, .annmiddle h2, .annbottom h2
-{
-  color: white;
-  background-color: #666;
-  font-size: 14px;
-  padding: 1em;
-  margin-bottom: 1em;
-}
-.anntop label, .annmiddle label, .annbottom label
-{
-  margin-left: 1em;
-  font-size: 14px;
-  margin-top: 1em;
-  display: block;
-  width: 100%;
-}
-.anntop input
-{
-  margin-left: 1em;
-}
-.cellule
-{
-  width: 250px;
-  height: 40px;
-  border-radius: 5px;
-  margin: 1em;
-}
-.anntop textarea
-{
-  width: 250px;
-  height: 200px;
-  margin-left: 1em;
-  border-radius: 1px;
-
-}
-.anntop p
-{
-  margin-top: 2em;
-  font-size: 13px;
-  margin-bottom: 1em;
-}
-.anntop figure
-{
-  margin: auto;
-}
-.anntop figure img
-{
-  margin: auto;
-  margin-left: 0.3em;
+.anntop, .annmiddle, .annbottom {
+    border: 1px solid grey;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1em;
 }
 
-.annmiddle .adresse
-{
-  margin-left: 1em;
+.anntop h2, .annmiddle h2, .annbottom h2 {
+    color: white;
+    background-color: #666;
+    font-size: 14px;
+    padding: 1em;
+    margin-bottom: 1em;
 }
-.annmiddle button
-{
-  margin-top: 0.5em;
-  margin-left: 1em;
-  width: 255px;
-  height: 40px;
-  border-radius: 5px;
-  background-color: #f56b2a;
-  color: white;
-  margin-bottom: 1em;
+
+.anntop label, .annmiddle label, .annbottom label {
+    margin-left: 1em;
+    font-size: 14px;
+    margin-top: 1em;
+    display: block;
+    width: 100%;
 }
-.annmiddle p
-{
-  text-align: left;
-  font-size: 13px;
-  background-color: #d9e6f7;
-  border-radius: 4px;
-  margin-bottom: 1em;
+
+.anntop input {
+    margin-left: 1em;
 }
-.annmiddle figure
-{
-  margin: auto;
-  width: 100%;
+
+.cellule {
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 1em;
 }
-.annmiddle figure img
-{
-  width:260px;
-  height:258px;
-  margin-left: 1em;
-  margin-bottom: 1em;
+
+.anntop textarea {
+    width: 250px;
+    height: 200px;
+    margin-left: 1em;
+    border-radius: 1px;
 }
-.annbottom p
-{
-  font-size: 13px;
+
+.anntop p {
+    margin-top: 2em;
+    font-size: 13px;
+    margin-bottom: 1em;
 }
+
+.anntop figure {
+    margin: auto;
+}
+
+.anntop figure img {
+    margin: auto;
+    margin-left: 0.3em;
+}
+
+.annmiddle .adresse {
+    margin-left: 1em;
+}
+
+.annmiddle button {
+    margin-top: 0.5em;
+    margin-left: 1em;
+    width: 255px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #f56b2a;
+    color: white;
+    margin-bottom: 1em;
+}
+
+.annmiddle p {
+    text-align: left;
+    font-size: 13px;
+    background-color: #d9e6f7;
+    border-radius: 4px;
+    margin-bottom: 1em;
+}
+
+.annmiddle figure {
+    margin: auto;
+    width: 100%;
+}
+
+.annmiddle figure img {
+    width: 220px;
+    height: 218px;
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+.annbottom p {
+    font-size: 13px;
+}
+
+
 /*END OF ALL THE ANNONCE*/
-.champs
-{
-  text-align: right;
+
+.champs {
+    text-align: right;
 }
-.validerbutton
-{
-  margin-top: 0.5em;
-  margin-left: 1em;
-  width: 286px;
-  height: 40px;
-  border-radius: 5px;
-  background-color: #4183d7;
-  color: white;
-  margin-bottom: 1em;
+
+.validerbutton {
+    margin-top: 0.5em;
+    margin-left: 1em;
+    width: 286px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #4183d7;
+    color: white;
+    margin-bottom: 1em;
 }
-.
-
-
-
-
-
 
 
 /*END OF THE ANNONCE.HTML FILES MOBILE VERSION*/
+
+
 /*MOBILE VERSION*/
+
 
 /*TABLETTE VERSION*/
 
@@ -516,9 +517,53 @@ hr
     .bottom p {
         width: 17%;
     }
+
+/*ANNONCE.HTML FILES TABLETTE VERSION*/
+.cellule, .anntop textarea
+{
+  width: 90%;
+}
+.anntop p
+{
+  text-align: left;
 }
 
-
+.positablette
+{
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 1em;
+  width: 60%;
+}
+.positablette2
+{
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 1em;
+  width: 26%;
+}
+.annmiddle p
+{
+  width: 60%;
+}
+.check
+{
+  display: block;
+  margin-left: 1em;
+}
+.annbottom p
+{
+  text-align: left;
+  font-weight: bold;
+}
+.validerbutton
+{
+  margin-left: 2.8em;
+}
+}
+/*END OF THE ANNONCE.HTML FILES TABLETTE VERSION*/
 /*TABLETTE VERSION*/
 
 
@@ -657,6 +702,10 @@ hr
 
 /*FOOTER*/
 
+/*ANNONCE.HTML FILES DESKTOP VERSION*/
+
+
+/*END OF THE ANNONCE.HTML FILES DESKTOP VERSION*/
 
 /*DESKTOP VERSION*/
 

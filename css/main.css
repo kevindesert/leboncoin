@@ -451,8 +451,54 @@ hr {
 
 
 /*-----OFFRE.HTML PAGE MOBILE VERSION-----*/
+/*HEADER*/
 
+/*CONTAINER & ASIDE*/
+.containeroffre h1{
+  color:#989898;
+  font-size: 18px;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+.containeroffre aside
+{
+  border: 1px solid orange;
+  width: 95%;
+  margin: auto;
+}
+.containeroffre h2
+{
+  font-size: 16px;
+  text-align: center;
+  background-color: #F56B2A;
+  height: 2.5em;
+  color: white;
+  font-weight: 400;
+}
+.containeroffre article
+{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: yellow;
 
+}
+.containeroffre aside figure
+{
+  background-color: red;
+  width: 80%;
+  display: flex;
+}
+.containeroffre aside figure img
+{
+  width: 130px;
+  height: 86px;
+}
+.containeroffre figcaption
+{
+  background-color: blue;
+  width: 100%;
+}
 /*-------------------------------- END OF MOBILE VERSION------------------------------------*/
 
 

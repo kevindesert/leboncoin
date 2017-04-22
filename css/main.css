@@ -863,6 +863,45 @@ hr {
 /*-----END OF THE ANNONCE.HTML FILES DESKTOP VERSION----*/
 
 /*----OFFRE.HTML FILES DESKTOP VERSION-----*/
+/*BARRE DE RECHERCHE*/
+.rechercher
+{
+  background-color: #f2f2f2;
+  width: 100%;
+  margin: auto;
+}
+.rechercher form
+{
+  width: 90%;
+}
+.recherche
+{
+  width: 50%;
+  height: 40px;
+}
+.catégorie
+{
+  width: 25%;
+}
+.rechercher button
+{
+  width: 20%;
+  background-color:#4c94ef;
+  color: white;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.region
+{
+  width: 25%;
+}
+.ville
+{
+  width: 25%;
+  height: 40px;
+}
+/*CONTAINER AND ASIDE*/
 
 /*----END OF THE OFFRE.HTML FILES DESKTOP VERSION-----*/
 /*-------------------------------- END OF DESKTOP VERSION----------------------------------*/

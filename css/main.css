@@ -301,7 +301,6 @@ footer {
     color: #00b0ed;
 }
 
-
 /*FOOTER*/
 
 
@@ -451,54 +450,143 @@ hr {
 
 
 /*-----OFFRE.HTML PAGE MOBILE VERSION-----*/
+
+
 /*HEADER*/
 
-/*CONTAINER & ASIDE*/
-.containeroffre h1{
-  color:#989898;
-  font-size: 18px;
-  margin-left: 1em;
-  margin-top: 1em;
-}
-.containeroffre aside
-{
-  border: 1px solid orange;
-  width: 95%;
-  margin: auto;
-}
-.containeroffre h2
-{
-  font-size: 16px;
-  text-align: center;
-  background-color: #F56B2A;
-  height: 2.5em;
-  color: white;
-  font-weight: 400;
-}
-.containeroffre article
-{
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  background-color: yellow;
 
+/*CONTAINER & ASIDE*/
+
+
+/*CONTAINER OFFRE DIV*/
+
+.containeroffre h1 {
+    color: #989898;
+    font-size: 18px;
+    margin-left: 1em;
+    margin-top: 1em;
 }
-.containeroffre aside figure
+
+.containeroffre aside {
+    border: 1px solid orange;
+    width: 95%;
+    margin: auto;
+}
+
+.containeroffre h2 {
+    font-size: 16px;
+    text-align: center;
+    background-color: #F56B2A;
+    height: 2.5em;
+    color: white;
+    font-weight: 400;
+}
+
+.containeroffre article {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.containeroffre aside figure {
+    width: 85%;
+    display: flex;
+}
+
+.containeroffre aside figure img {
+    width: 130px;
+    height: 86px;
+}
+
+.containeroffre figcaption {
+    width: 100%;
+}
+
+.containeroffre figcaption p {
+    color: #3873bd;
+    font-weight: bold;
+    text-align: left;
+}
+
+.containeroffre figcaption span {
+    color: #F56B2A;
+    font-weight: bold;
+    margin-left: 1em;
+}
+
+
+/*GALERIE*/
+
+.galerie {
+    border: 1px solid grey;
+    width: 95%;
+    margin: auto;
+    margin-top: 1em;
+}
+
+.galerie ul {
+    background-color: grey;
+}
+
+.galerie ul li {
+    display: inline-block;
+    height: 40px;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.galerie select {
+    color: #3873bd;
+    font-size: 14px;
+}
+
+.galerie .one, .two, .three {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid grey;
+    width: 100%;
+}
+
+.galerie .one a, .two a, .three a {
+    display: flex;
+    color: #3873bd;
+}
+
+.one section, .two section, .three section {
+    margin: auto;
+}
+
+.one h3, .two h3, .three h3 {
+    font-size: 14px;
+}
+
+.one p, .two p, .three p {
+    font-size: 12px;
+    text-align: left;
+    color: black;
+}
+
+.one span, .two span, .three span {
+    color: #F56B2A;
+}
+
+.galerie article figure img {
+    width: 100px;
+    height: 133px;
+}
+/*PAGE OFFRE CHANGE*/
+.page ul
 {
-  background-color: red;
-  width: 80%;
-  display: flex;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  color:#3873bd;
 }
-.containeroffre aside figure img
+.page ul li
 {
-  width: 130px;
-  height: 86px;
+  display: inline-block;
 }
-.containeroffre figcaption
-{
-  background-color: blue;
-  width: 100%;
-}
+/*END OF THE OFFRE.HTML PAGE FOR MOBILE VERSION*/
+
 /*-------------------------------- END OF MOBILE VERSION------------------------------------*/
 
 

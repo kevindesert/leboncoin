@@ -8,4 +8,6 @@ J'ai utilisé ces différentes couleurs représentant le panel choisis par Lebon
 - #1a1a1a = équivalent au footer pour sa partie noir
 - #f2f2f2 = équivalent au footer pour sa partie grisé , couleur également utilisé pour le background des articles sur  la page offre et sur certain bouttons et sélécteur.
 
-Police utilisé: "Open Sans" et "sans-serif"
+Police utilisé: "Open Sans" et "sans-serif".
+
+Auteur: Kévin Désert simplonien.

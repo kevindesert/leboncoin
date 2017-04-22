@@ -301,6 +301,7 @@ footer {
     color: #00b0ed;
 }
 
+
 /*FOOTER*/
 
 
@@ -573,19 +574,24 @@ hr {
     width: 100px;
     height: 133px;
 }
+
+
 /*PAGE OFFRE CHANGE*/
-.page ul
-{
-  width: 50%;
-  margin: auto;
-  text-align: center;
-  color:#3873bd;
+
+.page ul {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: #3873bd;
 }
-.page ul li
-{
-  display: inline-block;
+
+.page ul li {
+    display: inline-block;
 }
+
+
 /*END OF THE OFFRE.HTML PAGE FOR MOBILE VERSION*/
+
 
 /*-------------------------------- END OF MOBILE VERSION------------------------------------*/
 
@@ -689,10 +695,27 @@ hr {
     .validerbutton {
         margin-left: 2.8em;
     }
+    /*----END OF THE ANNONCE.HTML FILES TABLETTE VERSION----*/
+    /*OFFRE.HTML FILES TABLETTE VERSION*/
+    .containeroffre {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+    .containeroffre aside {
+        width: 30%;
+        margin: auto;
+        margin-top: 0;
+        margin-top: 1em;
+    }
+    .containeroffre .galerie {
+        width: 65%;
+    }
+    .containeroffre h1, .containeroffre nav {
+        display: none;
+    }
 }
-
-
-/*----END OF THE ANNONCE.HTML FILES TABLETTE VERSION----*/
+/*END OF THE OFFRE.HTML FILES TABLETTE VERSION*/
 
 
 /*--------------------------------END OF TABLETTE VERSION----------------------------------*/
@@ -839,7 +862,9 @@ hr {
 
 /*-----END OF THE ANNONCE.HTML FILES DESKTOP VERSION----*/
 
+/*----OFFRE.HTML FILES DESKTOP VERSION-----*/
 
+/*----END OF THE OFFRE.HTML FILES DESKTOP VERSION-----*/
 /*-------------------------------- END OF DESKTOP VERSION----------------------------------*/
 
 
